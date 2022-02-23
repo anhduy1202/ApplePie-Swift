@@ -15,6 +15,7 @@
 		7AE6E5B227C60CFC00438EB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AE6E5B027C60CFC00438EB3 /* LaunchScreen.storyboard */; };
 		7AE6E5BD27C60CFD00438EB3 /* ApplePieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE6E5BC27C60CFD00438EB3 /* ApplePieTests.swift */; };
 		7AE6E5C827C60CFD00438EB3 /* ApplePieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE6E5C727C60CFD00438EB3 /* ApplePieUITests.swift */; };
+		7AE6E5D827C638CA00438EB3 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE6E5D727C638CA00438EB3 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7AE6E5C327C60CFD00438EB3 /* ApplePieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplePieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AE6E5C727C60CFD00438EB3 /* ApplePieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePieUITests.swift; sourceTree = "<group>"; };
 		7AE6E5C927C60CFD00438EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AE6E5D727C638CA00438EB3 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				7AE6E5AE27C60CFC00438EB3 /* Assets.xcassets */,
 				7AE6E5B027C60CFC00438EB3 /* LaunchScreen.storyboard */,
 				7AE6E5B327C60CFC00438EB3 /* Info.plist */,
+				7AE6E5D727C638CA00438EB3 /* Game.swift */,
 			);
 			path = ApplePie;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				7AE6E5AA27C60CFA00438EB3 /* ViewController.swift in Sources */,
 				7AE6E5A627C60CFA00438EB3 /* AppDelegate.swift in Sources */,
 				7AE6E5A827C60CFA00438EB3 /* SceneDelegate.swift in Sources */,
+				7AE6E5D827C638CA00438EB3 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,7 +449,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = DanielTruong.ApplePie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -463,7 +467,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = DanielTruong.ApplePie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
